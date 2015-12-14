@@ -1,0 +1,114 @@
+body {
+  overflow-x: hidden; }
+
+#landing {
+  min-height: 100vh;
+  background-image: url("../images/fitness1.jpg");
+  background-size: cover;
+  position: relative; }
+  #landing h1 {
+    text-align: left;
+    position: absolute;
+    top: 65%;
+    left: 6%;
+    color: #FFF; }
+    #landing h1 span {
+      color: green; }
+  #landing h4 {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    color: #FFF; }
+    #landing h4 span {
+      color: red; }
+  #landing i {
+    color: red;
+    position: relative;
+    top: 6px; }
+  #landing .navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    position: fixed; }
+  #landing .navbar-inverse .navbar-nav > .active > a {
+    color: #fff;
+    background-color: transparent; }
+  #landing .navbar-inverse .navbar-nav > li > a {
+    color: #FFF; }
+  #landing .navbar-brand {
+    font-size: 2em; }
+  #landing .navbar-inverse .navbar-brand {
+    color: #FFF; }
+
+#customization {
+  background-color: #A2CA29;
+  padding: 8em 0 0 0; }
+  #customization .first {
+    font-size: 4em;
+    color: #FFF; }
+  #customization h3 {
+    color: #FFF; }
+  #customization p {
+    color: #FFF; }
+  #customization a {
+    color: #FFF; }
+  #customization .fa-long-arrow-right {
+    color: #FFF; }
+  #customization .details {
+    background-color: #FFF;
+    text-align: center;
+    padding: 3em 1em; }
+  #customization .red {
+    color: red;
+    text-transform: uppercase;
+    padding: 1em;
+    font-weight: bold; }
+  #customization .current-color {
+    color: #A2CA29;
+    margin-top: -27px; }
+  #customization .drop {
+    margin: 0.8em;
+    font-size: 2em;
+    color: #d3d3d3; }
+  #customization .black {
+    color: #000; }
+  #customization .image2 {
+    background-image: url("../images/fitness2.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 392px; }
+  #customization .fitness-first-row {
+    margin-top: 6em; }
+  #customization .users {
+    position: absolute;
+    bottom: 1em;
+    right: 1em; }
+  #customization .active {
+    color: red; }
+  #customization .number {
+    color: #FFF; }
+  #customization .image3 {
+    background-image: url("../images/fitness3.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 392px;
+    padding: 0px 0px;
+    margin-left: 0px; }
+  #customization .users2 {
+    position: absolute;
+    bottom: 1em;
+    left: 1em; }
+  #customization .products-used {
+    color: #FFF; }
+  #customization i {
+    color: red;
+    position: relative;
+    top: 2px;
+    font-size: 18px; }
+  #customization .fitness-first-row2 {
+    margin-top: 6em; }
+  #customization .inspiration {
+    background-color: #FFF;
+    text-align: center;
+    padding: 3em 1em; }
+
+/*# sourceMappingURL=app.css.map */

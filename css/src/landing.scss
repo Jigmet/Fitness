@@ -1,0 +1,69 @@
+body {
+  overflow-x: hidden;
+}
+
+#landing {
+  min-height: 100vh;
+  background-image: url('../images/fitness1.jpg');
+  background-size: cover;
+  position: relative;
+
+h1{
+  text-align: left;
+  position: absolute;
+  top: 65%;
+  left:6%;
+  color: #FFF;
+
+  span{
+    color: green;
+    }
+
+}
+
+h4{
+  position: absolute;
+  top: 75%;
+  left: 20%;
+
+  ;
+
+    color: #FFF;
+
+    span{
+      color: red;
+    }
+}
+  i{
+
+    color: red;
+    position: relative;
+    top: 6px;
+
+  }
+
+  .navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    position: fixed;
+}
+.navbar-inverse .navbar-nav>.active>a {
+  color: #fff;
+  background-color: transparent;
+
+ }
+
+ .navbar-inverse .navbar-nav>li>a {
+    color: #FFF;
+
+}
+
+.navbar-brand {
+  font-size: 2em;
+
+}
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+ }
+
+ }

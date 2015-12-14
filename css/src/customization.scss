@@ -1,0 +1,118 @@
+#customization{
+  background-color: #A2CA29;
+  padding: 8em 0 0 0;
+
+  .first {
+    font-size: 4em;
+    color: #FFF;
+  }
+
+  h3{
+    color: #FFF;
+  }
+
+  p{
+    color:#FFF;
+  }
+
+  a{
+    color: #FFF;
+
+  }
+
+  .fa-long-arrow-right{
+    color: #FFF;
+  }
+
+  .details{
+    background-color: #FFF;
+    text-align: center;
+    padding: 3em 1em;
+
+  }
+  .red{
+    color:red;
+    text-transform: uppercase;
+    padding: 1em;
+    font-weight: bold;
+  }
+
+  .current-color{
+     color:#A2CA29;
+     margin-top: -27px;
+  }
+
+
+
+
+
+  .drop{
+    margin: 0.8em;
+    font-size: 2em;
+    color: #d3d3d3;
+  }
+
+.black{
+  color:#000;
+}
+
+.image2 {
+  background-image: url('../images/fitness2.jpg');
+  background-size: cover;
+  background-position: center center;
+  min-height:392px;
+}
+.fitness-first-row {
+  margin-top: 6em;
+
+}
+.users{
+  position:absolute;
+  bottom:1em;
+  right:1em;
+}
+.active{
+  color:red;
+
+}
+.number{
+  color:#FFF;
+   }
+
+  .image3 {
+    background-image: url('../images/fitness3.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height:392px;
+    padding: 0px 0px;
+    margin-left: 0px;
+}
+.users2{
+  position:absolute;
+  bottom:1em;
+  left:1em;
+}
+
+  .products-used{
+    color:#FFF;
+  }
+
+i{color: red;
+   position: relative;
+   top: 2px;
+   font-size: 18px;
+}
+.fitness-first-row2 {
+  margin-top: 6em;
+
+}
+  .inspiration{
+  background-color: #FFF;
+  text-align: center;
+  padding: 3em 1em;
+
+}
+
+
+
+}
