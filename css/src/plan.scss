@@ -1,0 +1,168 @@
+              #plan{
+                background-color: #FE634F;
+                padding: 0;
+
+                .image4 {
+                  background-image: url('../images/fitness4.jpg');
+                  background-size: cover;
+                  background-position: right center;
+                  min-height:348px;
+                  width: 25%;
+                }
+
+                  .image5{
+
+                    background-image: url('../images/fitness5.jpg');
+                    background-size: cover;
+                    background-position: center center;
+                    min-height:348px;
+                    width: 75%;
+                    position:relative;
+
+                  }
+
+                  .back{
+                    position: absolute;
+                    top: 6em;
+                    left: 6em;
+                  }
+
+                  .date{
+                    color: #FFF;
+                  }
+
+                  .health{
+                color: #FFF;
+                text-transform: uppercase;
+                position: absolute;
+                left: 37em;
+                width: 150px;
+                top: 0em;
+              }
+
+
+                  .tag-icon{
+                    color: #fff;
+
+                  }
+                  .lifestyle{
+                  background-color: #FFF;
+                  padding: 3em 1em;
+                  height: 317px
+                  }
+                    .track{
+                      color:red;
+
+                    }
+
+                    .lifestyleH{
+                      color:#A1CA27;
+                      text-transform: uppercase;
+
+                    }
+
+                    .fa-user{
+                      position: relative;
+                      left: 8em;
+                      top: -1.7em;
+                      color:#D3D3D3;
+                    }
+
+                    .summer{
+                      background-color: #A1CA27;
+                      padding: 5em 1em;
+                      width: 74.9%;
+                      height: 317px;
+                    }
+
+                    .summer-h{
+                      color: #FFF;
+                    }
+
+                    .summer-para{
+                      color:#FFF;
+                    }
+
+                    .image6{
+
+                      background-image: url('../images/fitness6.jpg');
+                      background-size: cover;
+                      background-position: center center;
+                      min-height:348px;
+                      width: 75%;
+                      position:relative;
+
+                      }
+
+                      .image7{
+
+                        background-image: url('../images/fitness7.jpg');
+                        background-size: cover;
+                        background-position: center center;
+                        min-height:348px;
+                        width: 25%;
+                        position:relative;
+
+                        }
+                        .involved{
+                          background-color: #FFF;
+                          padding: 1em 1em;
+                          width: 74.9%;
+                          height: 317px;
+                        }
+                        .track2{
+                          color:red;
+                          margin-top: 55px;
+                        }
+
+                        .yourself{
+                          color:#A1CA27;
+                          text-transform: uppercase;
+                          margin-top: -10px;
+                          margin-left: -4px;
+
+                        }
+
+                        .football{
+                          position: relative;
+                          left: 28em;
+                          top: -1.7em;
+                          color: #D3D3D3;
+                        }
+
+
+                        .habits{
+                          background-color: #A1CA27;
+                          height: 317px;
+                        }
+
+                        .big{
+                          position: relative;
+                          top: 61px;
+
+                        .improve{
+                          color: #FFF;
+                          text-transform: uppercase;
+                          margin-bottom: -4px;
+                        }
+
+                        .eating-para{
+                          color: #FFF;
+
+                        }
+
+                        .eating{
+                          color: #FFF;
+                          margin-top: 4px;
+                          margin-bottom: -10px;
+                        }
+                      .last-drop{
+                        position: relative;
+                        left: 5.5em;
+                        top: -1em;
+                        color: #FFF;
+
+                      }
+
+                      }
+                    }

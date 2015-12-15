@@ -1,4 +1,7 @@
 body {
+  font-family: 'Open Sans', sans-serif; }
+
+body {
   overflow-x: hidden; }
 
 #landing {
@@ -33,15 +36,18 @@ body {
     color: #fff;
     background-color: transparent; }
   #landing .navbar-inverse .navbar-nav > li > a {
-    color: #FFF; }
+    color: #FFF;
+    font-weight: bold; }
   #landing .navbar-brand {
     font-size: 2em; }
   #landing .navbar-inverse .navbar-brand {
     color: #FFF; }
+  #landing .navbar-inverse .navbar-brand span.fit {
+    border-bottom: 4px solid #A3C926; }
 
 #customization {
   background-color: #A2CA29;
-  padding: 8em 0 0 0; }
+  padding: 5em 0 0 0; }
   #customization .first {
     font-size: 4em;
     color: #FFF; }
@@ -110,5 +116,180 @@ body {
     background-color: #FFF;
     text-align: center;
     padding: 3em 1em; }
+
+#runner {
+  background-image: url("../images/fitness8.jpg");
+  height: 100vh; }
+
+.launch {
+  color: #FFF;
+  text-align: center;
+  padding: 2em; }
+
+.launch-para {
+  color: #FFF;
+  text-align: center; }
+
+#plan {
+  background-color: #FE634F;
+  padding: 0; }
+  #plan .image4 {
+    background-image: url("../images/fitness4.jpg");
+    background-size: cover;
+    background-position: right center;
+    min-height: 348px;
+    width: 25%; }
+  #plan .image5 {
+    background-image: url("../images/fitness5.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 348px;
+    width: 75%;
+    position: relative; }
+  #plan .back {
+    position: absolute;
+    top: 6em;
+    left: 6em; }
+  #plan .date {
+    color: #FFF; }
+  #plan .health {
+    color: #FFF;
+    text-transform: uppercase;
+    position: absolute;
+    left: 37em;
+    width: 150px;
+    top: 0em; }
+  #plan .tag-icon {
+    color: #fff; }
+  #plan .lifestyle {
+    background-color: #FFF;
+    padding: 3em 1em;
+    height: 317px; }
+  #plan .track {
+    color: red; }
+  #plan .lifestyleH {
+    color: #A1CA27;
+    text-transform: uppercase; }
+  #plan .fa-user {
+    position: relative;
+    left: 8em;
+    top: -1.7em;
+    color: #D3D3D3; }
+  #plan .summer {
+    background-color: #A1CA27;
+    padding: 5em 1em;
+    width: 74.9%;
+    height: 317px; }
+  #plan .summer-h {
+    color: #FFF; }
+  #plan .summer-para {
+    color: #FFF; }
+  #plan .image6 {
+    background-image: url("../images/fitness6.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 348px;
+    width: 75%;
+    position: relative; }
+  #plan .image7 {
+    background-image: url("../images/fitness7.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 348px;
+    width: 25%;
+    position: relative; }
+  #plan .involved {
+    background-color: #FFF;
+    padding: 1em 1em;
+    width: 74.9%;
+    height: 317px; }
+  #plan .track2 {
+    color: red;
+    margin-top: 55px; }
+  #plan .yourself {
+    color: #A1CA27;
+    text-transform: uppercase;
+    margin-top: -10px;
+    margin-left: -4px; }
+  #plan .football {
+    position: relative;
+    left: 28em;
+    top: -1.7em;
+    color: #D3D3D3; }
+  #plan .habits {
+    background-color: #A1CA27;
+    height: 317px; }
+  #plan .big {
+    position: relative;
+    top: 61px; }
+    #plan .big .improve {
+      color: #FFF;
+      text-transform: uppercase;
+      margin-bottom: -4px; }
+    #plan .big .eating-para {
+      color: #FFF; }
+    #plan .big .eating {
+      color: #FFF;
+      margin-top: 4px;
+      margin-bottom: -10px; }
+    #plan .big .last-drop {
+      position: relative;
+      left: 5.5em;
+      top: -1em;
+      color: #FFF; }
+
+footer {
+  background-color: #000;
+  height: 99vh; }
+
+.resources1 {
+  color: #FFF; }
+
+.resources-p {
+  color: #FFF; }
+
+.stay {
+  color: #FFF; }
+
+.face {
+  color: #fff;
+  border-radius: 55%;
+  border-color: blue;
+  padding: 7px 10px;
+  font-size: 17px;
+  background-color: blue; }
+
+.twitt {
+  color: #fff;
+  border-radius: 65%;
+  border-color: blue;
+  padding: 7px 10px;
+  font-size: 17px;
+  background-color: #00AFEB; }
+
+.tube {
+  color: #fff;
+  border-radius: 65%;
+  border-color: red;
+  padding: 7px 10px;
+  font-size: 17px;
+  background-color: red; }
+
+.in {
+  color: #fff;
+  border-radius: 65%;
+  border-color: red;
+  padding: 7px 10px;
+  font-size: 17px;
+  background-color: blue; }
+
+.color {
+  background-color: #A3C926;
+  color: #FFF; }
+  .color:hover {
+    background-color: #A3C926;
+    color: #FFF; }
+  .color .right-arrow {
+    margin-left: 7px; }
 
 /*# sourceMappingURL=app.css.map */

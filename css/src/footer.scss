@@ -1,0 +1,71 @@
+  footer{
+    background-color: #000;
+    height: 99vh;
+  }
+   .resources1{
+     color: #FFF;
+
+   }
+
+   .resources-p{
+     color:#FFF;
+
+   }
+
+   .stay{
+     color:#FFF;
+
+   }
+
+   .touch{
+
+   }
+
+   .face{
+     color: #fff;
+    border-radius: 55%;
+    border-color: blue;
+    padding: 7px 10px;
+    font-size: 17px;
+    background-color: blue
+   }
+
+   .twitt{
+     color: #fff;
+    border-radius: 65%;
+    border-color: blue;
+    padding: 7px 10px;
+    font-size: 17px;
+    background-color:#00AFEB;
+   }
+
+   .tube{
+     color: #fff;
+    border-radius: 65%;
+    border-color: red;
+    padding: 7px 10px;
+    font-size: 17px;
+    background-color:red;
+   }
+
+   .in{
+     color: #fff;
+    border-radius: 65%;
+    border-color: red;
+    padding: 7px 10px;
+    font-size: 17px;
+    background-color:blue;
+   }
+  .color{
+    background-color: #A3C926;
+    color: #FFF;
+    &:hover{
+      background-color: #A3C926;
+      color:#FFF;
+    }
+
+    .right-arrow{
+      margin-left: 7px
+    }
+
+  }

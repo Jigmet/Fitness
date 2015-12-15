@@ -1,69 +1,69 @@
-body {
-  overflow-x: hidden;
-}
-
-#landing {
-  min-height: 100vh;
-  background-image: url('../images/fitness1.jpg');
-  background-size: cover;
-  position: relative;
-
-h1{
-  text-align: left;
-  position: absolute;
-  top: 65%;
-  left:6%;
-  color: #FFF;
-
-  span{
-    color: green;
+    body {
+      overflow-x: hidden;
     }
 
-}
+    #landing {
+      min-height: 100vh;
+      background-image: url('../images/fitness1.jpg');
+      background-size: cover;
+      position: relative;
 
-h4{
-  position: absolute;
-  top: 75%;
-  left: 20%;
+    h1{
+      text-align: left;
+      position: absolute;
+      top: 65%;
+      left:6%;
+      color: #FFF;
 
-  ;
+      span{
+        color: green;
+        }
 
-    color: #FFF;
-
-    span{
-      color: red;
     }
-}
-  i{
 
-    color: red;
-    position: relative;
-    top: 6px;
+    h4{
+      position: absolute;
+      top: 75%;
+      left: 20%;
+        color: #FFF;
 
-  }
+        span{
+          color: red;
+        }
+    }
+      i{
 
-  .navbar-inverse {
-    background-color: transparent;
-    border-color: transparent;
-    position: fixed;
-}
-.navbar-inverse .navbar-nav>.active>a {
-  color: #fff;
-  background-color: transparent;
+        color: red;
+        position: relative;
+        top: 6px;
 
- }
+      }
 
- .navbar-inverse .navbar-nav>li>a {
-    color: #FFF;
+      .navbar-inverse {
+        background-color: transparent;
+        border-color: transparent;
+        position: fixed;
+    }
+    .navbar-inverse .navbar-nav>.active>a {
+      color: #fff;
+      background-color: transparent;
 
-}
+     }
 
-.navbar-brand {
-  font-size: 2em;
+     .navbar-inverse .navbar-nav>li>a {
+        color: #FFF;
+        font-weight: bold;
 
-}
-.navbar-inverse .navbar-brand {
-    color: #FFF;
- }
+    }
 
- }
+    .navbar-brand {
+      font-size: 2em;
+
+    }
+    .navbar-inverse .navbar-brand {
+        color: #FFF;
+     }
+    .navbar-inverse .navbar-brand span.fit{
+          border-bottom: 4px solid #A3C926;
+    }
+     }
