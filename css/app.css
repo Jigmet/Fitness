@@ -166,7 +166,8 @@ body {
     padding: 3em 1em;
     height: 317px; }
   #plan .track {
-    color: red; }
+    color: red;
+    font-weight: bold; }
   #plan .lifestyleH {
     color: #A1CA27;
     text-transform: uppercase; }
@@ -205,7 +206,8 @@ body {
     height: 317px; }
   #plan .track2 {
     color: red;
-    margin-top: 55px; }
+    margin-top: 55px;
+    font-weight: bold; }
   #plan .yourself {
     color: #A1CA27;
     text-transform: uppercase;
