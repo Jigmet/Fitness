@@ -4,34 +4,35 @@
 
     .first {
       font-size: 4em;
-      color: #FFF;
+      color: #FAF9F9;
     }
 
     h3{
-      color: #FFF;
+      color: #FAF9F9;
     }
 
     p{
-      color:#FFF;
+      color:#FAF9F9;
+      line-height: 26px;
     }
 
     a{
-      color: #FFF;
+      color: #FAF9F9;
 
     }
 
     .fa-long-arrow-right{
-      color: #FFF;
+      color: #FAF9F9;
     }
 
     .details{
-      background-color: #FFF;
+      background-color: #FAF9F9;
       text-align: center;
       padding: 3em 1em;
 
     }
     .red{
-      color:red;
+      color:#FD5D47;
       text-transform: uppercase;
       padding: 1em;
       font-weight: bold;
@@ -40,6 +41,7 @@
     .current-color{
        color:#A2CA29;
        margin-top: -27px;
+       text-transform: uppercase;
     }
 
 
@@ -53,14 +55,14 @@
     }
 
   .black{
-    color:#000;
+    color:#A9ADB0;
   }
 
   .image2 {
     background-image: url('../images/fitness2.jpg');
     background-size: cover;
     background-position: center center;
-    min-height:392px;
+    min-height:427px;
   }
   .fitness-first-row {
     margin-top: 6em;
@@ -72,18 +74,20 @@
     right:1em;
   }
   .active{
-    color:red;
+    color:#FD5D47;
+    font-weight: 900;
 
   }
   .number{
-    color:#FFF;
+    color:#FAF9F9;
+    font-weight: 900;
      }
 
     .image3 {
       background-image: url('../images/fitness3.jpg');
       background-size: cover;
       background-position: center center;
-      min-height:392px;
+      min-height:427px;
       padding: 0px 0px;
       margin-left: 0px;
   }
@@ -94,10 +98,11 @@
   }
 
     .products-used{
-      color:#FFF;
+      color:#FAF9F9;
+      font-weight: 900;
     }
 
-  i{color: red;
+  i{color: #FD5D47;
      position: relative;
      top: 2px;
      font-size: 18px;
@@ -107,7 +112,7 @@
 
   }
     .inspiration{
-    background-color: #FFF;
+    background-color: #FAF9F9;
     text-align: center;
     padding: 3em 1em;
 

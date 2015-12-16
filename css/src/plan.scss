@@ -1,170 +1,182 @@
-              #plan{
-                background-color: #FE634F;
-                padding: 0;
+#plan{
+  background-color: #FE634F;
+  padding: 0;
 
-                .image4 {
-                  background-image: url('../images/fitness4.jpg');
-                  background-size: cover;
-                  background-position: right center;
-                  min-height:348px;
-                  width: 25%;
-                }
+  .image4 {
+    background-image: url('../images/fitness4.jpg');
+    background-size: cover;
+    background-position: right center;
+    min-height:348px;
+    width: 25%;
+  }
 
-                  .image5{
+    .image5{
 
-                    background-image: url('../images/fitness5.jpg');
-                    background-size: cover;
-                    background-position: center center;
-                    min-height:348px;
-                    width: 75%;
-                    position:relative;
+      background-image: url('../images/fitness5.jpg');
+      background-size: cover;
+      background-position: center center;
+      min-height:348px;
+      width: 75%;
+      position:relative;
 
-                  }
+    }
 
-                  .back{
-                    position: absolute;
-                    top: 6em;
-                    left: 6em;
-                  }
+    .back{
+      position: absolute;
+      top: 6em;
+      left: 6em;
+    }
 
-                  .date{
-                    color: #FFF;
-                  }
+    .date{
+      color: #FAF9F9;
+    }
 
-                  .health{
-                color: #FFF;
-                text-transform: uppercase;
-                position: absolute;
-                left: 37em;
-                width: 150px;
-                top: 0em;
-              }
-
-
-                  .tag-icon{
-                    color: #fff;
-
-                  }
-                  .lifestyle{
-                  background-color: #FFF;
-                  padding: 3em 1em;
-                  height: 317px
-                  }
-                    .track{
-                      color:red;
-                      font-weight: bold;
-
-                    }
-
-                    .lifestyleH{
-                      color:#A1CA27;
-                      text-transform: uppercase;
-
-                    }
-
-                    .fa-user{
-                      position: relative;
-                      left: 8em;
-                      top: -1.7em;
-                      color:#D3D3D3;
-                    }
-
-                    .summer{
-                      background-color: #A1CA27;
-                      padding: 5em 1em;
-                      width: 74.9%;
-                      height: 317px;
-                    }
-
-                    .summer-h{
-                      color: #FFF;
-                    }
-
-                    .summer-para{
-                      color:#FFF;
-                    }
-
-                    .image6{
-
-                      background-image: url('../images/fitness6.jpg');
-                      background-size: cover;
-                      background-position: center center;
-                      min-height:348px;
-                      width: 75%;
-                      position:relative;
-
-                      }
-
-                      .image7{
-
-                        background-image: url('../images/fitness7.jpg');
-                        background-size: cover;
-                        background-position: center center;
-                        min-height:348px;
-                        width: 25%;
-                        position:relative;
-
-                        }
-                        .involved{
-                          background-color: #FFF;
-                          padding: 1em 1em;
-                          width: 74.9%;
-                          height: 317px;
-                        }
-                        .track2{
-                          color:red;
-                          margin-top: 55px;
-                          font-weight: bold;
-                        }
-
-                        .yourself{
-                          color:#A1CA27;
-                          text-transform: uppercase;
-                          margin-top: -10px;
-                          margin-left: -4px;
-
-                        }
-
-                        .football{
-                          position: relative;
-                          left: 28em;
-                          top: -1.7em;
-                          color: #D3D3D3;
-                        }
+    .health{
+  color:#FAF9F9;
+  text-transform: uppercase;
+  position: absolute;
+  left: 37em;
+  width: 150px;
+  top: 0em;
+}
 
 
-                        .habits{
-                          background-color: #A1CA27;
-                          height: 317px;
-                        }
+    .tag-icon{
+      color: #FAF9F9;
 
-                        .big{
-                          position: relative;
-                          top: 61px;
+    }
+    .lifestyle{
+    background-color: #FAF9F9;
+    padding: 3em 1em;
+    height: 317px;
+    }
+      .track{
+        color:#FD5D47;
+        font-weight: bold;
 
-                        .improve{
-                          color: #FFF;
-                          text-transform: uppercase;
-                          margin-bottom: -4px;
-                        }
+      }
 
-                        .eating-para{
-                          color: #FFF;
+      .lifestyleH{
+        color:#A1CA27;
+        text-transform: uppercase;
+      }
 
-                        }
+      .para{
+        color:#A9ADB0;
+        line-height: 24px;
+      }
 
-                        .eating{
-                          color: #FFF;
-                          margin-top: 4px;
-                          margin-bottom: -10px;
-                        }
-                      .last-drop{
-                        position: relative;
-                        left: 5.5em;
-                        top: -1em;
-                        color: #FFF;
+      .fa-user{
+        position: relative;
+        left: 8em;
+        top: -1.7em;
+        color:#D3D3D3;
+      }
 
-                      }
+      .summer{
+        background-color: #A1CA27;
+        padding: 5em 1em;
+        width: 74.9%;
+        height: 317px;
+      }
 
-                      }
-                    }
+      .summer-h{
+        color: #FAF9F9;
+        text-transform: uppercase;
+      }
+
+      .summer-para{
+        color:#FAF9F9;
+        line-height: 24px;
+      }
+
+      .image6{
+
+        background-image: url('../images/fitness6.jpg');
+        background-size: cover;
+        background-position: center center;
+        min-height:348px;
+        width: 75%;
+        position:relative;
+
+        }
+
+        .image7{
+
+          background-image: url('../images/fitness7.jpg');
+          background-size: cover;
+          background-position: center center;
+          min-height:348px;
+          width: 25%;
+          position:relative;
+
+          }
+          .involved{
+            background-color: #FAF9F9;
+            padding: 1em 1em;
+            width: 74.9%;
+            height: 317px;
+         p{
+           color:#A9ADB0;
+         }
+
+          }
+
+
+          .track2{
+            color:#FD5D47;
+            margin-top: 55px;
+            font-weight: bold;
+          }
+
+          .yourself{
+            color:#A1CA27;
+            text-transform: uppercase;
+            margin-top: -10px;
+            margin-left: -4px;
+
+          }
+
+          .football{
+            position: relative;
+            left: 28em;
+            top: -1.7em;
+            color: #D3D3D3;
+          }
+
+
+          .habits{
+            background-color: #A1CA27;
+            height: 317px;
+          }
+
+          .big{
+            position: relative;
+            top: 61px;
+
+          .improve{
+            color: #FAF9F9;
+            text-transform: uppercase;
+            margin-bottom: -4px;
+          }
+
+          .eating-para{
+            color: #FAF9F9;
+
+          }
+
+          .eating{
+            color: #FAF9F9;
+            margin-top: 4px;
+            margin-bottom: -10px;
+          }
+        .last-drop{
+          position: relative;
+          left: 5.5em;
+          top: -1em;
+          color: #FAF9F9;
+
+        }
+
+        }
+      }

@@ -8,44 +8,53 @@
       background-size: cover;
       position: relative;
 
-    h1{
-      text-align: left;
-      position: absolute;
-      top: 65%;
-      left:6%;
-      color: #FFF;
-
-      span{
-        color: green;
-        }
-
-    }
-
-    h4{
-      position: absolute;
-      top: 75%;
-      left: 20%;
-        color: #FFF;
-
-        span{
-          color: red;
-        }
-    }
-      i{
-
-        color: red;
+      .row1{
         position: relative;
-        top: 6px;
+        top: 400px;
+      }
+      .align {
+        text-align: right;
 
+        h1 {
+
+          color:#FAF9F9;
+
+
+          span{
+            color:#A2CA29;
+          }
+        }
+
+        h4{
+          color:#FAF9F9;
+          span{
+            color:#FD533C;
+          }
+        }
       }
 
+      i{
+        color: #FD5D47;
+      position: relative;
+      top: 31px;
+     font-size: 2em;
+     letter-spacing: 9px;
+      }
+
+      .navbar-collapse{
+        line-height: 24px;
+      }
+      ul{
+        margin-top: 23px;
+      }
       .navbar-inverse {
         background-color: transparent;
         border-color: transparent;
         position: fixed;
+
     }
     .navbar-inverse .navbar-nav>.active>a {
-      color: #fff;
+      color: #DADADB;
       background-color: transparent;
 
      }
@@ -61,9 +70,20 @@
 
     }
     .navbar-inverse .navbar-brand {
-        color: #FFF;
+        color: #FAF9F9;
+        font-weight:bold;
      }
     .navbar-inverse .navbar-brand span.fit{
           border-bottom: 4px solid #A3C926;
     }
      }
+
+     section#landing:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-right: 100vw solid rgba(255, 0, 0, 0.3);
+    border-top: 85px solid transparent;
+    border-bottom: 30px solid rgba(255, 0, 0, 0.3);
+}

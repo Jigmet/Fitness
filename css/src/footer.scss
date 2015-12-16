@@ -1,71 +1,86 @@
-  footer{
-    background-color: #000;
+footer{
+    background-color: #0D111A;
     height: 99vh;
-  }
+    padding-top: 78px;
+
    .resources1{
-     color: #FFF;
+     color: #FAF9F9;
 
    }
 
    .resources-p{
-     color:#FFF;
+     color:#FAF9F9;
+     line-height: 24px;
 
    }
 
    .stay{
-     color:#FFF;
+     color:#FAF9F9;
 
    }
 
    .touch{
 
+
    }
 
    .face{
-     color: #fff;
+     color: #FAF9F9;
     border-radius: 55%;
     border-color: blue;
     padding: 7px 10px;
     font-size: 17px;
-    background-color: blue
+    background-color:#2E3093;
+    margin-right: 4px;
    }
 
    .twitt{
-     color: #fff;
-    border-radius: 65%;
+     color: #FAF9F9;
+    border-radius: 100%;
     border-color: blue;
-    padding: 7px 10px;
+    padding: 7px 8px;
     font-size: 17px;
     background-color:#00AFEB;
+    margin-right: 4px;
    }
 
    .tube{
-     color: #fff;
-    border-radius: 65%;
+     color: #FAF9F9;
+    border-radius: 100%;
     border-color: red;
-    padding: 7px 10px;
+    padding: 7px 8px;
     font-size: 17px;
     background-color:red;
+    margin-right: 4px;
    }
 
    .in{
      color: #fff;
-    border-radius: 65%;
+    border-radius: 100%;
     border-color: red;
-    padding: 7px 10px;
+    padding: 7px 9px;
     font-size: 17px;
     background-color:blue;
+    margin-right: 4px;
    }
   .color{
     background-color: #A3C926;
-    color: #FFF;
+    color: #FAF9F9;
     &:hover{
       background-color: #A3C926;
-      color:#FFF;
+      color:#FAF9F9;
     }
 
     .right-arrow{
       margin-left: 7px
     }
 
+
+
   }
+
+  .field{
+    height: 3em;
+
+  }
+}

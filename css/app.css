@@ -9,31 +9,35 @@ body {
   background-image: url("../images/fitness1.jpg");
   background-size: cover;
   position: relative; }
-  #landing h1 {
-    text-align: left;
-    position: absolute;
-    top: 65%;
-    left: 6%;
-    color: #FFF; }
-    #landing h1 span {
-      color: green; }
-  #landing h4 {
-    position: absolute;
-    top: 75%;
-    left: 20%;
-    color: #FFF; }
-    #landing h4 span {
-      color: red; }
-  #landing i {
-    color: red;
+  #landing .row1 {
     position: relative;
-    top: 6px; }
+    top: 400px; }
+  #landing .align {
+    text-align: right; }
+    #landing .align h1 {
+      color: #FAF9F9; }
+      #landing .align h1 span {
+        color: #A2CA29; }
+    #landing .align h4 {
+      color: #FAF9F9; }
+      #landing .align h4 span {
+        color: #FD533C; }
+  #landing i {
+    color: #FD5D47;
+    position: relative;
+    top: 31px;
+    font-size: 2em;
+    letter-spacing: 9px; }
+  #landing .navbar-collapse {
+    line-height: 24px; }
+  #landing ul {
+    margin-top: 23px; }
   #landing .navbar-inverse {
     background-color: transparent;
     border-color: transparent;
     position: fixed; }
   #landing .navbar-inverse .navbar-nav > .active > a {
-    color: #fff;
+    color: #DADADB;
     background-color: transparent; }
   #landing .navbar-inverse .navbar-nav > li > a {
     color: #FFF;
@@ -41,47 +45,59 @@ body {
   #landing .navbar-brand {
     font-size: 2em; }
   #landing .navbar-inverse .navbar-brand {
-    color: #FFF; }
+    color: #FAF9F9;
+    font-weight: bold; }
   #landing .navbar-inverse .navbar-brand span.fit {
     border-bottom: 4px solid #A3C926; }
+
+section#landing:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-right: 100vw solid rgba(255, 0, 0, 0.3);
+  border-top: 85px solid transparent;
+  border-bottom: 30px solid rgba(255, 0, 0, 0.3); }
 
 #customization {
   background-color: #A2CA29;
   padding: 5em 0 0 0; }
   #customization .first {
     font-size: 4em;
-    color: #FFF; }
+    color: #FAF9F9; }
   #customization h3 {
-    color: #FFF; }
+    color: #FAF9F9; }
   #customization p {
-    color: #FFF; }
+    color: #FAF9F9;
+    line-height: 26px; }
   #customization a {
-    color: #FFF; }
+    color: #FAF9F9; }
   #customization .fa-long-arrow-right {
-    color: #FFF; }
+    color: #FAF9F9; }
   #customization .details {
-    background-color: #FFF;
+    background-color: #FAF9F9;
     text-align: center;
     padding: 3em 1em; }
   #customization .red {
-    color: red;
+    color: #FD5D47;
     text-transform: uppercase;
     padding: 1em;
     font-weight: bold; }
   #customization .current-color {
     color: #A2CA29;
-    margin-top: -27px; }
+    margin-top: -27px;
+    text-transform: uppercase; }
   #customization .drop {
     margin: 0.8em;
     font-size: 2em;
     color: #d3d3d3; }
   #customization .black {
-    color: #000; }
+    color: #A9ADB0; }
   #customization .image2 {
     background-image: url("../images/fitness2.jpg");
     background-size: cover;
     background-position: center center;
-    min-height: 392px; }
+    min-height: 427px; }
   #customization .fitness-first-row {
     margin-top: 6em; }
   #customization .users {
@@ -89,14 +105,16 @@ body {
     bottom: 1em;
     right: 1em; }
   #customization .active {
-    color: red; }
+    color: #FD5D47;
+    font-weight: 900; }
   #customization .number {
-    color: #FFF; }
+    color: #FAF9F9;
+    font-weight: 900; }
   #customization .image3 {
     background-image: url("../images/fitness3.jpg");
     background-size: cover;
     background-position: center center;
-    min-height: 392px;
+    min-height: 427px;
     padding: 0px 0px;
     margin-left: 0px; }
   #customization .users2 {
@@ -104,16 +122,17 @@ body {
     bottom: 1em;
     left: 1em; }
   #customization .products-used {
-    color: #FFF; }
+    color: #FAF9F9;
+    font-weight: 900; }
   #customization i {
-    color: red;
+    color: #FD5D47;
     position: relative;
     top: 2px;
     font-size: 18px; }
   #customization .fitness-first-row2 {
     margin-top: 6em; }
   #customization .inspiration {
-    background-color: #FFF;
+    background-color: #FAF9F9;
     text-align: center;
     padding: 3em 1em; }
 
@@ -122,12 +141,13 @@ body {
   height: 100vh; }
 
 .launch {
-  color: #FFF;
+  color: #FAF9F9;
   text-align: center;
-  padding: 2em; }
+  padding: 2em;
+  font-size: 2.7em; }
 
 .launch-para {
-  color: #FFF;
+  color: #FAF9F9;
   text-align: center; }
 
 #plan {
@@ -151,26 +171,29 @@ body {
     top: 6em;
     left: 6em; }
   #plan .date {
-    color: #FFF; }
+    color: #FAF9F9; }
   #plan .health {
-    color: #FFF;
+    color: #FAF9F9;
     text-transform: uppercase;
     position: absolute;
     left: 37em;
     width: 150px;
     top: 0em; }
   #plan .tag-icon {
-    color: #fff; }
+    color: #FAF9F9; }
   #plan .lifestyle {
-    background-color: #FFF;
+    background-color: #FAF9F9;
     padding: 3em 1em;
     height: 317px; }
   #plan .track {
-    color: red;
+    color: #FD5D47;
     font-weight: bold; }
   #plan .lifestyleH {
     color: #A1CA27;
     text-transform: uppercase; }
+  #plan .para {
+    color: #A9ADB0;
+    line-height: 24px; }
   #plan .fa-user {
     position: relative;
     left: 8em;
@@ -182,9 +205,11 @@ body {
     width: 74.9%;
     height: 317px; }
   #plan .summer-h {
-    color: #FFF; }
+    color: #FAF9F9;
+    text-transform: uppercase; }
   #plan .summer-para {
-    color: #FFF; }
+    color: #FAF9F9;
+    line-height: 24px; }
   #plan .image6 {
     background-image: url("../images/fitness6.jpg");
     background-size: cover;
@@ -200,12 +225,14 @@ body {
     width: 25%;
     position: relative; }
   #plan .involved {
-    background-color: #FFF;
+    background-color: #FAF9F9;
     padding: 1em 1em;
     width: 74.9%;
     height: 317px; }
+    #plan .involved p {
+      color: #A9ADB0; }
   #plan .track2 {
-    color: red;
+    color: #FD5D47;
     margin-top: 55px;
     font-weight: bold; }
   #plan .yourself {
@@ -225,73 +252,73 @@ body {
     position: relative;
     top: 61px; }
     #plan .big .improve {
-      color: #FFF;
+      color: #FAF9F9;
       text-transform: uppercase;
       margin-bottom: -4px; }
     #plan .big .eating-para {
-      color: #FFF; }
+      color: #FAF9F9; }
     #plan .big .eating {
-      color: #FFF;
+      color: #FAF9F9;
       margin-top: 4px;
       margin-bottom: -10px; }
     #plan .big .last-drop {
       position: relative;
       left: 5.5em;
       top: -1em;
-      color: #FFF; }
+      color: #FAF9F9; }
 
 footer {
-  background-color: #000;
-  height: 99vh; }
-
-.resources1 {
-  color: #FFF; }
-
-.resources-p {
-  color: #FFF; }
-
-.stay {
-  color: #FFF; }
-
-.face {
-  color: #fff;
-  border-radius: 55%;
-  border-color: blue;
-  padding: 7px 10px;
-  font-size: 17px;
-  background-color: blue; }
-
-.twitt {
-  color: #fff;
-  border-radius: 65%;
-  border-color: blue;
-  padding: 7px 10px;
-  font-size: 17px;
-  background-color: #00AFEB; }
-
-.tube {
-  color: #fff;
-  border-radius: 65%;
-  border-color: red;
-  padding: 7px 10px;
-  font-size: 17px;
-  background-color: red; }
-
-.in {
-  color: #fff;
-  border-radius: 65%;
-  border-color: red;
-  padding: 7px 10px;
-  font-size: 17px;
-  background-color: blue; }
-
-.color {
-  background-color: #A3C926;
-  color: #FFF; }
-  .color:hover {
+  background-color: #0D111A;
+  height: 99vh;
+  padding-top: 78px; }
+  footer .resources1 {
+    color: #FAF9F9; }
+  footer .resources-p {
+    color: #FAF9F9;
+    line-height: 24px; }
+  footer .stay {
+    color: #FAF9F9; }
+  footer .face {
+    color: #FAF9F9;
+    border-radius: 55%;
+    border-color: blue;
+    padding: 7px 10px;
+    font-size: 17px;
+    background-color: #2E3093;
+    margin-right: 4px; }
+  footer .twitt {
+    color: #FAF9F9;
+    border-radius: 100%;
+    border-color: blue;
+    padding: 7px 8px;
+    font-size: 17px;
+    background-color: #00AFEB;
+    margin-right: 4px; }
+  footer .tube {
+    color: #FAF9F9;
+    border-radius: 100%;
+    border-color: red;
+    padding: 7px 8px;
+    font-size: 17px;
+    background-color: red;
+    margin-right: 4px; }
+  footer .in {
+    color: #fff;
+    border-radius: 100%;
+    border-color: red;
+    padding: 7px 9px;
+    font-size: 17px;
+    background-color: blue;
+    margin-right: 4px; }
+  footer .color {
     background-color: #A3C926;
-    color: #FFF; }
-  .color .right-arrow {
-    margin-left: 7px; }
+    color: #FAF9F9; }
+    footer .color:hover {
+      background-color: #A3C926;
+      color: #FAF9F9; }
+    footer .color .right-arrow {
+      margin-left: 7px; }
+  footer .field {
+    height: 3em; }
 
 /*# sourceMappingURL=app.css.map */
