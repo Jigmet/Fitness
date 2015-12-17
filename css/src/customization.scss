@@ -25,10 +25,16 @@
       color: #FAF9F9;
     }
 
+    .fitness-first-row {
+      margin-top: 6em;
+      
+
+    }
     .details{
       background-color: #FAF9F9;
       text-align: center;
       padding: 3em 1em;
+      min-height:434px;
 
     }
     .red{
@@ -62,12 +68,9 @@
     background-image: url('../images/fitness2.jpg');
     background-size: cover;
     background-position: center center;
-    min-height:427px;
+    min-height:434px;
   }
-  .fitness-first-row {
-    margin-top: 6em;
 
-  }
   .users{
     position:absolute;
     bottom:1em;
@@ -115,6 +118,7 @@
     background-color: #FAF9F9;
     text-align: center;
     padding: 3em 1em;
+    min-height: 427px;
 
   }
 

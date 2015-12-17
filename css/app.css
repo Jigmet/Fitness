@@ -8,7 +8,9 @@ body {
   min-height: 100vh;
   background-image: url("../images/fitness1.jpg");
   background-size: cover;
-  position: relative; }
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center; }
   #landing .row1 {
     position: relative;
     top: 400px; }
@@ -74,10 +76,13 @@ section#landing:after {
     color: #FAF9F9; }
   #customization .fa-long-arrow-right {
     color: #FAF9F9; }
+  #customization .fitness-first-row {
+    margin-top: 6em; }
   #customization .details {
     background-color: #FAF9F9;
     text-align: center;
-    padding: 3em 1em; }
+    padding: 3em 1em;
+    min-height: 434px; }
   #customization .red {
     color: #FD5D47;
     text-transform: uppercase;
@@ -97,9 +102,7 @@ section#landing:after {
     background-image: url("../images/fitness2.jpg");
     background-size: cover;
     background-position: center center;
-    min-height: 427px; }
-  #customization .fitness-first-row {
-    margin-top: 6em; }
+    min-height: 434px; }
   #customization .users {
     position: absolute;
     bottom: 1em;
@@ -134,10 +137,14 @@ section#landing:after {
   #customization .inspiration {
     background-color: #FAF9F9;
     text-align: center;
-    padding: 3em 1em; }
+    padding: 3em 1em;
+    min-height: 427px; }
 
 #runner {
   background-image: url("../images/fitness8.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
   height: 100vh; }
 
 .launch {
@@ -267,18 +274,18 @@ section#landing:after {
       top: -1em;
       color: #FAF9F9; }
 
-footer {
+#footer {
   background-color: #0D111A;
   height: 99vh;
   padding-top: 78px; }
-  footer .resources1 {
+  #footer .resources1 {
     color: #FAF9F9; }
-  footer .resources-p {
+  #footer .resources-p {
     color: #FAF9F9;
     line-height: 24px; }
-  footer .stay {
+  #footer .stay {
     color: #FAF9F9; }
-  footer .face {
+  #footer .face {
     color: #FAF9F9;
     border-radius: 55%;
     border-color: blue;
@@ -286,7 +293,7 @@ footer {
     font-size: 17px;
     background-color: #2E3093;
     margin-right: 4px; }
-  footer .twitt {
+  #footer .twitt {
     color: #FAF9F9;
     border-radius: 100%;
     border-color: blue;
@@ -294,7 +301,7 @@ footer {
     font-size: 17px;
     background-color: #00AFEB;
     margin-right: 4px; }
-  footer .tube {
+  #footer .tube {
     color: #FAF9F9;
     border-radius: 100%;
     border-color: red;
@@ -302,7 +309,7 @@ footer {
     font-size: 17px;
     background-color: red;
     margin-right: 4px; }
-  footer .in {
+  #footer .in {
     color: #fff;
     border-radius: 100%;
     border-color: red;
@@ -310,15 +317,15 @@ footer {
     font-size: 17px;
     background-color: blue;
     margin-right: 4px; }
-  footer .color {
+  #footer .color {
     background-color: #A3C926;
     color: #FAF9F9; }
-    footer .color:hover {
+    #footer .color:hover {
       background-color: #A3C926;
       color: #FAF9F9; }
-    footer .color .right-arrow {
+    #footer .color .right-arrow {
       margin-left: 7px; }
-  footer .field {
+  #footer .field {
     height: 3em; }
 
 /*# sourceMappingURL=app.css.map */
