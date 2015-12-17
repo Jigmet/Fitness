@@ -1,6 +1,6 @@
 #footer{
     background-color: #0D111A;
-    height: 99vh;
+    min-height: 100vh;
     padding-top: 78px;
 
    .resources1{
@@ -81,6 +81,16 @@
 
   .field{
     height: 3em;
+
+  }
+
+  &:before{
+    content: '';
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-left: 80vw solid #FD5D47;;
+    border-top: 50px solid transparent;
 
   }
 }

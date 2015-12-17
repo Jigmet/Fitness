@@ -145,7 +145,8 @@ section#landing:after {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
 
 .launch {
   color: #FAF9F9;
@@ -156,6 +157,18 @@ section#landing:after {
 .launch-para {
   color: #FAF9F9;
   text-align: center; }
+
+#runner:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 150px solid transparent;
+  border-left: 50vw solid #0D111A;
+  border-right: 50vw solid #0D111A;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block; }
 
 #plan {
   background-color: #FE634F;
@@ -276,7 +289,7 @@ section#landing:after {
 
 #footer {
   background-color: #0D111A;
-  height: 99vh;
+  min-height: 100vh;
   padding-top: 78px; }
   #footer .resources1 {
     color: #FAF9F9; }
@@ -327,5 +340,12 @@ section#landing:after {
       margin-left: 7px; }
   #footer .field {
     height: 3em; }
+  #footer:before {
+    content: '';
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-left: 80vw solid #FD5D47;
+    border-top: 50px solid transparent; }
 
 /*# sourceMappingURL=app.css.map */
