@@ -11,6 +11,9 @@ body {
   position: relative;
   background-repeat: no-repeat;
   background-position: center center; }
+  #landing nav.affix {
+    background-color: #0D111A;
+    opacity: 0.8; }
   #landing .row1 {
     position: relative;
     top: 400px; }
@@ -42,7 +45,7 @@ body {
     color: #DADADB;
     background-color: transparent; }
   #landing .navbar-inverse .navbar-nav > li > a {
-    color: #FFF;
+    color: #FAF9F9;
     font-weight: bold; }
   #landing .navbar-brand {
     font-size: 2em; }
@@ -151,7 +154,7 @@ section#landing:after {
 .launch {
   color: #FAF9F9;
   text-align: center;
-  padding: 2em;
+  padding: 0.4em;
   font-size: 2.7em; }
 
 .launch-para {

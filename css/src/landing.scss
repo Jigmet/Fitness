@@ -10,6 +10,12 @@
       background-repeat: no-repeat;
       background-position: center center;
 
+
+    nav.affix {
+       background-color: #0D111A;
+       opacity:0.8;
+    }
+
       .row1{
         position: relative;
         top: 400px;
@@ -54,6 +60,8 @@
         border-color: transparent;
         position: fixed;
 
+
+
     }
     .navbar-inverse .navbar-nav>.active>a {
       color: #DADADB;
@@ -61,8 +69,10 @@
 
      }
 
+
+
      .navbar-inverse .navbar-nav>li>a {
-        color: #FFF;
+        color: #FAF9F9;
         font-weight: bold;
 
     }
